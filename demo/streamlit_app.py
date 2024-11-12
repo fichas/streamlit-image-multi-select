@@ -6,7 +6,7 @@ import requests
 import streamlit as st
 from PIL import Image
 
-from streamlit_image_select import image_select
+from streamlit_image_multi_select import image_select
 
 
 def add_sunglasses(img, position):
@@ -48,7 +48,7 @@ arrays. You can also add captions (optional)!
 """
 
 with st.echo():
-    from streamlit_image_select import image_select
+    from streamlit_image_multi_select import image_select
 
     imgs = image_select(
         label="Select a cat",
